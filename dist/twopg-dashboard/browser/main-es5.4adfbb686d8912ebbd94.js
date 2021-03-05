@@ -31936,7 +31936,7 @@
             githubURL: "https://github.com/DBots-co",
             version: "v1.0.3b",
             url: "https://zerobotlist.herokuapp.com",
-            guildId: "236608364333891585"
+            guildId: "747604119631429722"
           };
 
         function Lc(e, t, n, i) {
