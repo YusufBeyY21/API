@@ -11,7 +11,7 @@ export default class MessageHandler implements EventHandler {
     async invoke(msg: Message) {
         if (msg.author.bot) return;
 
-        const prefix = `z!`;
+        const prefix = `zero `;
         const isCommand = msg.content.startsWith(prefix);
         if (isCommand)
             return this.commands.handle(msg, prefix);
