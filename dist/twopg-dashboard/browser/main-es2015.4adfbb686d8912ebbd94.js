@@ -45751,7 +45751,7 @@
                 titlePrefix: "Best Discord Bots",
                 titleSuffix: "ZBots",
                 url: "https://zerobotlist.herokuapp.com"
-              }, this.keywords("discord bots, discord bot maker, discord bot commands, discord bot builder, discord bot list"), this.image("https://dbots.co/assets/img/logo.svg")
+              }, this.keywords("discord bots, discord bot maker, discord bot commands, discord bot builder, discord bot list"), this.image("https://zerobotlist.herokuapp.com/assets/img/logo.svg")
             }
             get metaInstance() {
               return this.ngMeta
@@ -49687,7 +49687,7 @@
         yD = (() => {
           class t {
             constructor() {
-              this.statusURL = "https://dbots.statuspage.io", this.anchorVersion = pu.version.replace(/\./g, ""), this.environment = pu
+              this.statusURL = "https://zbots.statuspage.io", this.anchorVersion = pu.version.replace(/\./g, ""), this.environment = pu
             }
           }
           return t.\u0275fac = function(e) {
@@ -56042,7 +56042,7 @@
           template: function(t, e) {
             if (1 & t && (Oo(0, "bot-sidebar", 0, 1), Oo(2, "div", 2), So(3, cP, 4, 1, "header", 3), Oo(4, "div", 4), Oo(5, "div"), Oo(6, "a", 5), Ao(7, "img", 6), Eo(), Oo(8, "form", 7, 8), Oo(10, "mat-form-field", 9), Oo(11, "mat-label"), ma(12, "Size"), Eo(), Oo(13, "mat-select", 10), Oo(14, "mat-option", 11), ma(15, "Small"), Eo(), Oo(16, "mat-option", 12), ma(17, "Medium"), Eo(), Oo(18, "mat-option", 13), ma(19, "Large"), Eo(), Eo(), Eo(), Eo(), Eo(), Eo(), Oo(20, "pre", 14), Oo(21, "code"), ma(22), Eo(), Eo(), Eo(), Eo()), 2 & t) {
               const t = Co(1);
-              Do("bot", e.bot)("loaded", e.bot && e.user)("user", e.user), Gr(3), Do("ngIf", t.loaded), Gr(3), Do("href", "/bots/" + e.id, Qi), Gr(1), Do("src", e.widgetURL, Qi)("alt", null == e.user ? null : e.user.username), Gr(1), Do("formGroup", e.form), Gr(14), ya('<a href="https://dbots.co/bots/', e.user.id, '">\n  <img src="', e.widgetURL, '" alt="View on ZBots">\n</a>')
+              Do("bot", e.bot)("loaded", e.bot && e.user)("user", e.user), Gr(3), Do("ngIf", t.loaded), Gr(3), Do("href", "/bots/" + e.id, Qi), Gr(1), Do("src", e.widgetURL, Qi)("alt", null == e.user ? null : e.user.username), Gr(1), Do("formGroup", e.form), Gr(14), ya('<a href="https://zerobotlist.herokuapp.com/bots/', e.user.id, '">\n  <img src="', e.widgetURL, '" alt="View on ZBots">\n</a>')
             }
           },
           directives: [cO, Zu, Lv, Gb, Ov, SC, mC, jT, $b, Av, l_],
