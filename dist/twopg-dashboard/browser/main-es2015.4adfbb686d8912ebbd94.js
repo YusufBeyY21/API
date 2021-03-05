@@ -30748,7 +30748,7 @@
         production: !0,
         endpoint: "/api/v1",
         rootEndpoint: "http://localhost:3000",
-        discordInvite: "https://discord.gg/uDTgxyg",
+        discordInvite: "https://discord.gg/tG9aydMb5Y",
         docsURL: "https://docs.dbots.co",
         githubURL: "https://github.com/DBots-co",
         version: "v1.0.3b",
