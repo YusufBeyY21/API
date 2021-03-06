@@ -6,13 +6,13 @@ export default class HelpCommand implements Command {
     
     execute = async (ctx: CommandContext) => {
         return ctx.channel.send(
-            '🔨 `dbots accept <bot> <reason>` -> accept bot user with reason\n' +
-            '🅰 `dbots add-badge <bot> <badge_name>` -> add a badge to a bot\n' +
-            '🅰 `dbots clear-badges <bot>` -> clear badges from a bot\n' +
-            '🅰 `dbots delete <bot> <reason>` -> delete a bot from the list\n' +
-            '🔨 `dbots decline <bot> <reason>` -> decline bot user with reason\n' +
-            '🔨 `dbots help` -> show this\n' +
-            '✅ `dbots ping` -> `dbots ping` -> pong!\n' +
-            '🔨 `dbots q` -> show approval queue');
+            '🔨 `zero accept <bot> <reason>` -> accept bot user with reason\n' +
+            '🅰 `zero add-badge <bot> <badge_name>` -> add a badge to a bot\n' +
+            '🅰 `zero clear-badges <bot>` -> clear badges from a bot\n' +
+            '🅰 `zero delete <bot> <reason>` -> delete a bot from the list\n' +
+            '🔨 `zero decline <bot> <reason>` -> decline bot user with reason\n' +
+            '🔨 `zero help` -> show this\n' +
+            '✅ `zero ping` -> `dbots ping` -> pong!\n' +
+            '🔨 `zero q` -> show approval queue');
     }
 }
