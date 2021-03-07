@@ -51417,7 +51417,7 @@
         function FL(e, t) {
           if (1 & e) {
             var n = Xo();
-            qo(0, "div", 1), qo(1, "span", 2), $o(2, "i", 3), Go(), qo(3, "span", 4), Es(4, "We use cookies to improve your experience."), Go(), qo(5, "button", 5), ts("click", function() {
+            qo(0, "div", 1), qo(1, "span", 2), $o(2, "i", 3), Go(), qo(3, "span", 4), Es(4, "Deneyiminizi iyileştirmek için çerezler kullanıyoruz."), Go(), qo(5, "button", 5), ts("click", function() {
               return Jt(n), os().agree()
             }), $o(6, "i", 6), Go(), Go()
           }
@@ -51749,7 +51749,7 @@
         }
 
         function KL(e, t) {
-          if (1 & e && (qo(0, "div"), qo(1, "div", 17), qo(2, "a", 18), $o(3, "img", 19), Es(4), Go(), qo(5, "div", 20), qo(6, "a", 21), Es(7, "Dashboard"), Go(), $o(8, "hr", 22), qo(9, "a", 23), Es(10, "Logout"), Go(), Go(), Go(), Go()), 2 & e) {
+          if (1 & e && (qo(0, "div"), qo(1, "div", 17), qo(2, "a", 18), $o(3, "img", 19), Es(4), Go(), qo(5, "div", 20), qo(6, "a", 21), Es(7, "Kontrol Paneli"), Go(), $o(8, "hr", 22), qo(9, "a", 23), Es(10, "Çıkış Yap"), Go(), Go(), Go(), Go()), 2 & e) {
             var n = os();
             ca(3), Wo("src", n.user.displayAvatarURL, mr), ca(1), Ys(" ", n.user.username, " ")
           }
@@ -56214,7 +56214,7 @@
           };
 
         function hE(e, t) {
-          if (1 & e && (qo(0, "div", 1), qo(1, "div", 2), $o(2, "img", 3), $o(3, "div", 4), Go(), qo(4, "div", 5), qo(5, "p", 6), Bo(6, uE, 4, 3, "span", 7), qo(7, "span", 8), $o(8, "i", 9), Es(9), il(10, "number"), Go(), Go(), qo(11, "div", 10), qo(12, "h4", 11), Es(13), Go(), qo(14, "p", 12), Es(15), Go(), qo(16, "p", 13), Es(17), Go(), Go(), qo(18, "div", 14), qo(19, "button", 15), Es(20, "VIEW"), Go(), qo(21, "a", 16), qo(22, "button", 17), Es(23, "ADD"), Go(), Go(), Go(), Go(), Go()), 2 & e) {
+          if (1 & e && (qo(0, "div", 1), qo(1, "div", 2), $o(2, "img", 3), $o(3, "div", 4), Go(), qo(4, "div", 5), qo(5, "p", 6), Bo(6, uE, 4, 3, "span", 7), qo(7, "span", 8), $o(8, "i", 9), Es(9), il(10, "number"), Go(), Go(), qo(11, "div", 10), qo(12, "h4", 11), Es(13), Go(), qo(14, "p", 12), Es(15), Go(), qo(16, "p", 13), Es(17), Go(), Go(), qo(18, "div", 14), qo(19, "button", 15), Es(20, "Görüntüle"), Go(), qo(21, "a", 16), qo(22, "button", 17), Es(23, "Ekle"), Go(), Go(), Go(), Go(), Go()), 2 & e) {
             var n = os();
             ca(2), Wo("routerLink", el(15, lE, "/bots/" + n.user.id))("src", n.user.displayAvatarURL, mr)("alt", n.user.username + " | " + n.cleanTags), ca(1), Wo("ngClass", (17, i = cE, r = "online" === (null == n.user.presence ? null : n.user.presence.status), a = "dnd" === (null == n.user.presence ? null : n.user.presence.status), o = "idle" === (null == n.user.presence ? null : n.user.presence.status), function(e, t, n, i, r, a, o, s) {
               var u = t + 17;

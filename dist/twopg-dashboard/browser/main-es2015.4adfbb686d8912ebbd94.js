@@ -45675,7 +45675,7 @@
       function kS(t, e) {
         if (1 & t) {
           const t = Io();
-          Oo(0, "div", 1), Oo(1, "span", 2), Ao(2, "i", 3), Eo(), Oo(3, "span", 4), ma(4, "We use cookies to improve your experience."), Eo(), Oo(5, "button", 5), Ho("click", function() {
+          Oo(0, "div", 1), Oo(1, "span", 2), Ao(2, "i", 3), Eo(), Oo(3, "span", 4), ma(4, "Deneyiminizi iyileştirmek için çerezler kullanıyoruz."), Eo(), Oo(5, "button", 5), Ho("click", function() {
             return Ae(t), Wo().agree()
           }), Ao(6, "i", 6), Eo(), Eo()
         }
@@ -45967,7 +45967,7 @@
       }
 
       function OS(t, e) {
-        if (1 & t && (Oo(0, "div"), Oo(1, "div", 17), Oo(2, "a", 18), Ao(3, "img", 19), ma(4), Eo(), Oo(5, "div", 20), Oo(6, "a", 21), ma(7, "Dashboard"), Eo(), Ao(8, "hr", 22), Oo(9, "a", 23), ma(10, "Logout"), Eo(), Eo(), Eo(), Eo()), 2 & t) {
+        if (1 & t && (Oo(0, "div"), Oo(1, "div", 17), Oo(2, "a", 18), Ao(3, "img", 19), ma(4), Eo(), Oo(5, "div", 20), Oo(6, "a", 21), ma(7, "Kontrol Paneli"), Eo(), Ao(8, "hr", 22), Oo(9, "a", 23), ma(10, "Çıkış Yap"), Eo(), Eo(), Eo(), Eo()), 2 & t) {
           const t = Wo();
           Gr(3), Do("src", t.user.displayAvatarURL, Qi), Gr(1), _a(" ", t.user.username, " ")
         }
@@ -49422,7 +49422,7 @@
         };
 
       function dD(t, e) {
-        if (1 & t && (Oo(0, "div", 1), Oo(1, "div", 2), Ao(2, "img", 3), Ao(3, "div", 4), Eo(), Oo(4, "div", 5), Oo(5, "p", 6), So(6, aD, 4, 3, "span", 7), Oo(7, "span", 8), Ao(8, "i", 9), ma(9), Wl(10, "number"), Eo(), Eo(), Oo(11, "div", 10), Oo(12, "h4", 11), ma(13), Eo(), Oo(14, "p", 12), ma(15), Eo(), Oo(16, "p", 13), ma(17), Eo(), Eo(), Oo(18, "div", 14), Oo(19, "button", 15), ma(20, "VIEW"), Eo(), Oo(21, "a", 16), Oo(22, "button", 17), ma(23, "ADD"), Eo(), Eo(), Eo(), Eo(), Eo()), 2 & t) {
+        if (1 & t && (Oo(0, "div", 1), Oo(1, "div", 2), Ao(2, "img", 3), Ao(3, "div", 4), Eo(), Oo(4, "div", 5), Oo(5, "p", 6), So(6, aD, 4, 3, "span", 7), Oo(7, "span", 8), Ao(8, "i", 9), ma(9), Wl(10, "number"), Eo(), Eo(), Oo(11, "div", 10), Oo(12, "h4", 11), ma(13), Eo(), Oo(14, "p", 12), ma(15), Eo(), Oo(16, "p", 13), ma(17), Eo(), Eo(), Oo(18, "div", 14), Oo(19, "button", 15), ma(20, "Görüntüle"), Eo(), Oo(21, "a", 16), Oo(22, "button", 17), ma(23, "Ekle"), Eo(), Eo(), Eo(), Eo(), Eo()), 2 & t) {
           const t = Wo();
           Gr(2), Do("routerLink", Bl(15, lD, "/bots/" + t.user.id))("src", t.user.displayAvatarURL, Qi)("alt", t.user.username + " | " + t.cleanTags), Gr(1), Do("ngClass", (n = 17, i = cD, r = "online" === (null == t.user.presence ? null : t.user.presence.status), s = "dnd" === (null == t.user.presence ? null : t.user.presence.status), o = "idle" === (null == t.user.presence ? null : t.user.presence.status), function(t, e, n, i, r, s, o, a) {
             const l = e + n;
