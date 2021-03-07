@@ -56666,9 +56666,9 @@
           1 & e && (qo(0, "div"), $o(1, "spinner"), Go())
         }
         var AE, YE, PE = ((YE = function() {
-           /* function e(t) {
+            function e(t) {
               _(this, e), this.service = t, this.title = "Bot Paketleri", this.description = "Belirli kategorilerde önceden seçilmiş bir dizi botu görüntüleyin.", this.packs = [], this.page = 1, this.size = 8, this.initialized = !1
-            }*/
+            }
             return b(e, [{
               key: "ngOnInit",
               value: function() {
