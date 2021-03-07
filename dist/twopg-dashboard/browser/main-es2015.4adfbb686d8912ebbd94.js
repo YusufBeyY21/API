@@ -49814,7 +49814,7 @@
       let CD = (() => {
           class t {
             constructor(t) {
-              this.service = t, this.title = "Bot Packs", this.description = "Belirli kategorilerde önceden seçilmiş bir dizi botu görüntüleyin.", this.packs = [], this.page = 1, this.size = 8, this.initialized = !1
+              this.service = t, this.title = "Bot Paketleri", this.description = "Belirli kategorilerde önceden seçilmiş bir dizi botu görüntüleyin.", this.packs = [], this.page = 1, this.size = 8, this.initialized = !1
             }
             get lastPage() {
               return Math.ceil(this.packs.length / this.size)
@@ -49828,7 +49828,7 @@
               this.resetPaginator()
             }
             setOwnerLayout() {
-              this.title = this.ownerUser.username + "'s Bot Packs", this.description = `This user has ${this.packs.length} bot packs.`
+              this.title = this.ownerUser.username + "'nin Bot Paketleri", this.description = `Bu kullanıcının ${this.packs.length} bot paketleri`
             }
             resetPaginator(t = 1) {
               this.page = t
