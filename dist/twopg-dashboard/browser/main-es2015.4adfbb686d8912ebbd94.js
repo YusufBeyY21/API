@@ -46033,9 +46033,9 @@
             ["routerLink", "/logout", 1, "dropdown-item"]
           ],
           template: function(t, e) {
-            1 & t && (Oo(0, "nav", 0), Oo(1, "a", 1), Ao(2, "img", 2), Eo(), Oo(3, "button", 3), Ao(4, "span", 4), Eo(), Oo(5, "div", 5), Oo(6, "div", 6), Oo(7, "a", 7), Ao(8, "i", 8), ma(9, " Bots "), Eo(), Oo(10, "a", 9), Ho("click", function() {
+            1 & t && (Oo(0, "nav", 0), Oo(1, "a", 1), Ao(2, "img", 2), Eo(), Oo(3, "button", 3), Ao(4, "span", 4), Eo(), Oo(5, "div", 5), Oo(6, "div", 6), Oo(7, "a", 7), Ao(8, "i", 8), ma(9, " Botlar "), Eo(), Oo(10, "a", 9), Ho("click", function() {
               return e.randomBot()
-            }), Ao(11, "i", 10), ma(12, " Random Bot "), Eo(), Oo(13, "a", 11), Ao(14, "i", 12), ma(15, " Servers "), Eo(), Eo(), Oo(16, "div", 13), So(17, TS, 4, 0, "div", 14), So(18, OS, 11, 2, "div", 14), Eo(), Eo(), Eo()), 2 & t && (Gr(17), Do("ngIf", !e.user), Gr(1), Do("ngIf", e.user))
+            }), Ao(11, "i", 10), ma(12, " Random Bot ") /*,Eo(), Oo(13, "a", 11), Ao(14, "i", 12), ma(15, " Servers ")*/, Eo(), Eo(), Oo(16, "div", 13), So(17, TS, 4, 0, "div", 14), So(18, OS, 11, 2, "div", 14), Eo(), Eo(), Eo()), 2 & t && (Gr(17), Do("ngIf", !e.user), Gr(1), Do("ngIf", e.user))
           },
           directives: [UM, $M, Zu],
           styles: ["[_ngcontent-%COMP%]:root{--navbar-background:transparent}nav.navbar[_ngcontent-%COMP%]{background-color:var(--navbar-background)!important}img[_ngcontent-%COMP%]{max-width:96px}.dropdown[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{max-width:32px;border-radius:50%}.dropdown-menu[_ngcontent-%COMP%]{background:var(--background-secondary)}.dropdown-menu[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{color:#fff}.dropdown-menu[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover{background-color:var(--background-primary)}a[_ngcontent-%COMP%]{cursor:pointer}"]
@@ -49564,7 +49564,7 @@
       let _D = (() => {
           class t {
             constructor(t, e, n) {
-              this.service = t, this.location = e, this.packs = n, this.page = 1, this.size = 8, this.title = "Top", this.icon = "fas fa-robot", this.description = "The highest rated bots this week.", this.query = "", this.bots = [], this.savedBots = [], this.initialized = !1
+              this.service = t, this.location = e, this.packs = n, this.page = 1, this.size = 8, this.title = "Top", this.icon = "fas fa-robot", this.description = "Bu hafta en yüksek oy alan botlar..", this.query = "", this.bots = [], this.savedBots = [], this.initialized = !1
             }
             get lastPage() {
               return Math.ceil(this.bots.length / this.size)
@@ -49814,7 +49814,7 @@
       let CD = (() => {
           class t {
             constructor(t) {
-              this.service = t, this.title = "Bot Packs", this.description = "View a range of preselected bots in specific categories.", this.packs = [], this.page = 1, this.size = 8, this.initialized = !1
+              this.service = t, this.title = "Bot Packs", this.description = "Belirli kategorilerde önceden seçilmiş bir dizi botu görüntüleyin.", this.packs = [], this.page = 1, this.size = 8, this.initialized = !1
             }
             get lastPage() {
               return Math.ceil(this.packs.length / this.size)
@@ -49907,14 +49907,14 @@
       }
       const AD = function() {
           return {
-            description: "Trending bots with the most votes.",
+            description: "En çok oy alan trend botlar.",
             icon: "fas fa-chevron-up",
             name: "trending"
           }
         },
         YD = function() {
           return {
-            description: "Featured bots selected by ZBots.",
+            description: "ZBots tarafından seçilen öne çıkan botlar.",
             icon: "fas fa-star",
             name: "featured"
           }
@@ -50010,13 +50010,13 @@
               ["aria-hidden", "true", 1, "ml-1"]
             ],
             template: function(t, e) {
-              if (1 & t && (Oo(0, "header"), Ao(1, "navbar"), Oo(2, "div", 0), Oo(3, "div", 1), Oo(4, "h1"), ma(5, "Find the Best Discord Bots"), Eo(), Oo(6, "p", 2), ma(7, "Find bots for your servers quickly and simply."), Eo(), Eo(), Oo(8, "div", 3), Oo(9, "search", 4, 5), Ho("blur", function() {
+              if (1 & t && (Oo(0, "header"), Ao(1, "navbar"), Oo(2, "div", 0), Oo(3, "div", 1), Oo(4, "h1"), ma(5, "En İyi Discord Botlarını Bulun"), Eo(), Oo(6, "p", 2), ma(7, "Sunucularınız için hızlı ve basit bir şekilde botlar bulun."), Eo(), Eo(), Oo(8, "div", 3), Oo(9, "search", 4, 5), Ho("blur", function() {
                   return e.focused = !1
                 })("focus", function() {
                   return e.focused = !0
                 })("search", function(t) {
                   return e.search(t)
-                }), Eo(), Eo(), Oo(11, "div", 3), Oo(12, "mat-chip-list"), Oo(13, "mat-chip"), Oo(14, "a", 6), ma(15, "Top "), Ao(16, "i", 7), Eo(), Eo(), Oo(17, "mat-chip"), Oo(18, "a", 8), ma(19, "Bot Packs "), Ao(20, "i", 9), Eo(), Eo(), Oo(21, "mat-chip"), Oo(22, "a", 10), ma(23, "Trending "), Ao(24, "i", 11), Eo(), Eo(), Oo(25, "mat-chip", 12), Oo(26, "a", 13), Ao(27, "i", 14), Eo(), Eo(), Eo(), Eo(), Eo(), Eo(), Ao(28, "waves", 15), Oo(29, "div", 16), Ao(30, "bots", 17, 18), So(32, PD, 13, 5, "div", 19), Eo(), Ao(33, "home-footer")), 2 & t) {
+                }), Eo(), Eo(), Oo(11, "div", 3), Oo(12, "mat-chip-list"), Oo(13, "mat-chip"), Oo(14, "a", 6), ma(15, "Top "), Ao(16, "i", 7), Eo(), Eo(), Oo(17, "mat-chip"), Oo(18, "a", 8), ma(19, "Bot Paketleri "), Ao(20, "i", 9), Eo(), Eo(), Oo(21, "mat-chip"), Oo(22, "a", 10), ma(23, "Trending "), Ao(24, "i", 11), Eo(), Eo(), Oo(25, "mat-chip", 12), Oo(26, "a", 13), Ao(27, "i", 14), Eo(), Eo(), Eo(), Eo(), Eo(), Eo(), Ao(28, "waves", 15), Oo(29, "div", 16), Ao(30, "bots", 17, 18), So(32, PD, 13, 5, "div", 19), Eo(), Ao(33, "home-footer")), 2 & t) {
                 const t = Co(31);
                 na("focused", e.focused), Gr(28), Do("color", e.focused ? "var(--secondary)" : "transparent"), Gr(4), Do("ngIf", !t.query && !t.tag)
               }
@@ -51601,7 +51601,7 @@
               [1, "float-right", 3, "user"]
             ],
             template: function(t, e) {
-              1 & t && (Oo(0, "dashboard-sidebar"), Oo(1, "div", 0), Oo(2, "div", 1), Oo(3, "h1", 2), ma(4), Eo(), Oo(5, "h2", 3), ma(6, "Welcome to the ZBots dashboard!"), Eo(), Oo(7, "p", 4), ma(8, "Here you can manage bot listings, view bot logs, and more."), Eo(), Eo(), Ao(9, "hr"), So(10, KT, 5, 2, "div", 5), Eo(), Eo()), 2 & t && (Gr(4), _a("Hey, ", e.userService.user.username, ""), Gr(6), Do("ngIf", e.feedback))
+              1 & t && (Oo(0, "dashboard-sidebar"), Oo(1, "div", 0), Oo(2, "div", 1), Oo(3, "h1", 2), ma(4), Eo(), Oo(5, "h2", 3), ma(6, "ZBots kontrol paneline hoş geldiniz!"), Eo(), Oo(7, "p", 4), ma(8, "Burada bot listelerini yönetebilir, bot günlüklerini görüntüleyebilir ve daha fazlasını yapabilirsiniz."), Eo(), Eo(), Ao(9, "hr"), So(10, KT, 5, 2, "div", 5), Eo(), Eo()), 2 & t && (Gr(4), _a("Hey, ", e.userService.user.username, ""), Gr(6), Do("ngIf", e.feedback))
             },
             directives: [zT, Zu, Ju, UT],
             pipes: [cd],
