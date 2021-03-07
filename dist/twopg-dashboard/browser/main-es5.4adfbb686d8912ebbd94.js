@@ -56371,7 +56371,7 @@
         }
         var bE, kE, wE = ((kE = function() {
             function e(t, n, i) {
-              _(this, e), this.service = t, this.location = n, this.packs = i, this.page = 1, this.size = 8, this.title = "Top", this.icon = "fas fa-robot", this.description = "The highest rated bots this week.", this.query = "", this.bots = [], this.savedBots = [], this.initialized = !1
+              _(this, e), this.service = t, this.location = n, this.packs = i, this.page = 1, this.size = 8, this.title = "Top", this.icon = "fas fa-robot", this.description = "Bu hafta en yüksek oy alan botlar.", this.query = "", this.bots = [], this.savedBots = [], this.initialized = !1
             }
             return b(e, [{
               key: "ngOnInit",
@@ -56667,7 +56667,7 @@
         }
         var AE, YE, PE = ((YE = function() {
             function e(t) {
-              _(this, e), this.service = t, this.title = "Bot Packs", this.description = "View a range of preselected bots in specific categories.", this.packs = [], this.page = 1, this.size = 8, this.initialized = !1
+              _(this, e), this.service = t, this.title = "Bot Paketleri", this.description = "Belirli kategorilerde önceden seçilmiş bir dizi botu görüntüleyin.", this.packs = [], this.page = 1, this.size = 8, this.initialized = !1
             }
             return b(e, [{
               key: "ngOnInit",
@@ -56789,14 +56789,14 @@
         }
         var NE = function() {
             return {
-              description: "Trending bots with the most votes.",
+              description: "En çok oy alan trend botlar.",
               icon: "fas fa-chevron-up",
               name: "trending"
             }
           },
           BE = function() {
             return {
-              description: "Featured bots selected by ZBots.",
+              description: "ZBots tarafından seçilen öne çıkan botlar.",
               icon: "fas fa-star",
               name: "featured"
             }
