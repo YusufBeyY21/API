@@ -45963,7 +45963,7 @@
       })();
 
       function TS(t, e) {
-        1 & t && (Oo(0, "div"), Oo(1, "a", 15), Ao(2, "i", 16), ma(3, " Login"), Eo(), Eo())
+        1 & t && (Oo(0, "div"), Oo(1, "a", 15), Ao(2, "i", 16), ma(3, " Giriş Yap"), Eo(), Eo())
       }
 
       function OS(t, e) {
@@ -49812,10 +49812,10 @@
         1 & t && (Oo(0, "div"), Ao(1, "spinner"), Eo())
       }
       let CD = (() => {
-          class t {
+          /*class t {
             constructor(t) {
               this.service = t, this.title = "Bot Paketleri", this.description = "Belirli kategorilerde önceden seçilmiş bir dizi botu görüntüleyin.", this.packs = [], this.page = 1, this.size = 8, this.initialized = !1
-            }
+            }*/
             get lastPage() {
               return Math.ceil(this.packs.length / this.size)
             }
@@ -53227,7 +53227,7 @@
       })();
 
       function NE(t, e) {
-        1 & t && (Oo(0, "button", 10), Ao(1, "i", 11), ma(2, " Login to Vote "), Eo())
+        1 & t && (Oo(0, "button", 10), Ao(1, "i", 11), ma(2, " Oy vermek için Giriş Yapın! "), Eo())
       }
 
       function BE(t, e) {
@@ -53235,7 +53235,7 @@
           const t = Io();
           Oo(0, "button", 12), Ho("click", function() {
             return Ae(t), Wo(2).vote()
-          }), Ao(1, "i", 13), ma(2, " Vote "), Eo()
+          }), Ao(1, "i", 13), ma(2, " Oy Ver "), Eo()
         }
       }
       const zE = function(t) {
@@ -56383,7 +56383,7 @@
       }
 
       function PP(t, e) {
-        1 & t && (Oo(0, "button", 9), Ao(1, "i", 10), ma(2, " Login to Vote "), Eo())
+        1 & t && (Oo(0, "button", 9), Ao(1, "i", 10), ma(2, " Oy vermek için Giriş Yapın! "), Eo())
       }
 
       function RP(t, e) {
@@ -56391,7 +56391,7 @@
           const t = Io();
           Oo(0, "button", 11), Ho("click", function() {
             return Ae(t), Wo(2).vote()
-          }), Ao(1, "i", 12), ma(2, " Vote "), Eo()
+          }), Ao(1, "i", 12), ma(2, " Oy Ver "), Eo()
         }
       }
       const IP = function(t) {

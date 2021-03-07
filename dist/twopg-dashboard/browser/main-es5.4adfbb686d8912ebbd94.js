@@ -51745,7 +51745,7 @@
         }), GL);
 
         function JL(e, t) {
-          1 & e && (qo(0, "div"), qo(1, "a", 15), $o(2, "i", 16), Es(3, " Login"), Go(), Go())
+          1 & e && (qo(0, "div"), qo(1, "a", 15), $o(2, "i", 16), Es(3, " Giriş Yap"), Go(), Go())
         }
 
         function KL(e, t) {
@@ -56666,9 +56666,9 @@
           1 & e && (qo(0, "div"), $o(1, "spinner"), Go())
         }
         var AE, YE, PE = ((YE = function() {
-            function e(t) {
+           /* function e(t) {
               _(this, e), this.service = t, this.title = "Bot Paketleri", this.description = "Belirli kategorilerde önceden seçilmiş bir dizi botu görüntüleyin.", this.packs = [], this.page = 1, this.size = 8, this.initialized = !1
-            }
+            }*/
             return b(e, [{
               key: "ngOnInit",
               value: function() {
@@ -59759,7 +59759,7 @@
               return e.analytics.botInvite({
                 botId: e.user.id
               })
-            }), $o(4, "i", 47), Es(5, " Add"), Go(), qo(6, "button", 48), $o(7, "i", 49), Es(8, " Vote"), Go(), Go()
+            }), $o(4, "i", 47), Es(5, " Add"), Go(), qo(6, "button", 48), $o(7, "i", 49), Es(8, " Oy Ver"), Go(), Go()
           }
           if (2 & e) {
             var i = os();
@@ -60866,7 +60866,7 @@
         }), LR);
 
         function TR(e, t) {
-          1 & e && (qo(0, "button", 10), $o(1, "i", 11), Es(2, " Login to Vote "), Go())
+          1 & e && (qo(0, "button", 10), $o(1, "i", 11), Es(2, " Oy vermek için Giriş Yapın! "), Go())
         }
 
         function OR(e, t) {
@@ -60874,7 +60874,7 @@
             var n = Xo();
             qo(0, "button", 12), ts("click", function() {
               return Jt(n), os(2).vote()
-            }), $o(1, "i", 13), Es(2, " Vote "), Go()
+            }), $o(1, "i", 13), Es(2, " Oy Ver "), Go()
           }
         }
         var ER = function(e) {
@@ -60912,7 +60912,7 @@
                       case 6:
                         this.seo.setTags({
                           description: this.bot.listing.overview,
-                          titlePrefix: "Vote for " + this.user.username,
+                          titlePrefix:  this.user.username + " İçin Oy Ver",
                           titleSuffix: "ZBots",
                           url: "bots/" + this.id
                         }), this.themeService.setNavbarBackground("transparent");
@@ -64862,7 +64862,7 @@
         }
 
         function _H(e, t) {
-          1 & e && (qo(0, "button", 9), $o(1, "i", 10), Es(2, " Login to Vote "), Go())
+          1 & e && (qo(0, "button", 9), $o(1, "i", 10), Es(2, " Oy vermek için Giriş Yapın! "), Go())
         }
 
         function yH(e, t) {
@@ -64870,7 +64870,7 @@
             var n = Xo();
             qo(0, "button", 11), ts("click", function() {
               return Jt(n), os(2).vote()
-            }), $o(1, "i", 12), Es(2, " Vote "), Go()
+            }), $o(1, "i", 12), Es(2, " Oy Ver "), Go()
           }
         }
         var bH = function(e) {
