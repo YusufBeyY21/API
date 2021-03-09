@@ -51676,7 +51676,7 @@
             this.loaded = !0, this.user = {
               id: "",
               displayAvatarURL: "https://cdn.discordapp.com/embed/avatars/0.png",
-              username: "New Bot"
+              username: "Yeni Bot"
             }
           }
         }
@@ -52396,7 +52396,7 @@
             return e.analytics.botInvite({
               botId: e.user.id
             })
-          }), Ao(4, "i", 47), ma(5, " Add"), Eo(), Oo(6, "button", 48), Ao(7, "i", 49), ma(8, " Vote"), Eo(), Eo()
+          }), Ao(4, "i", 47), ma(5, " Ekle"), Eo(), Oo(6, "button", 48), Ao(7, "i", 49), ma(8, " Oy ver"), Eo(), Eo()
         }
         if (2 & t) {
           const t = Wo();
@@ -52643,7 +52643,7 @@
             return Ae(t), Wo().submit()
           })("animated", function() {
             return Ae(t), Wo().navigateToBotListing()
-          }), ma(1, "Add"), Eo()
+          }), ma(1, "Ekle"), Eo()
         }
         2 & t && Do("precondition", Wo().canSubmit)
       }
@@ -52655,7 +52655,7 @@
             return Ae(t), Wo().update()
           })("animated", function() {
             return Ae(t), Wo().navigateToBotListing()
-          }), ma(1, "Update"), Eo()
+          }), ma(1, "Güncelle"), Eo()
         }
         2 & t && Do("precondition", Wo().canSubmit)
       }
@@ -52696,8 +52696,8 @@
                 presence: {
                   status: "ONLINE"
                 },
-                tag: "New Bot#0001",
-                username: "New Bot"
+                tag: "Yeni Bot#0001",
+                username: "Yeni Bot"
               }, this.bot = {
                 listing: this.form.value,
                 guildCount: 100,
@@ -52873,7 +52873,7 @@
                   return e.preview = !0
                 }), Ao(8, "i", 6), ma(9, " Preview "), Eo(), Eo(), Eo(), Oo(10, "div", 7), Oo(11, "div", 8), Oo(12, "form", 9, 10), So(14, nE, 7, 1, "mat-form-field", 11), Oo(15, "mat-form-field", 12), Oo(16, "mat-label"), ma(17, "Bot Invite URL"), Eo(), Ao(18, "input", 13), Oo(19, "mat-hint"), ma(20, "Required"), Eo(), So(21, iE, 2, 0, "mat-error", 14), Eo(), Oo(22, "p", 15), Oo(23, "a", 16), ma(24, "Bot Invite Generator"), Eo(), Eo(), Ao(25, "hr"), Oo(26, "mat-form-field", 12), Oo(27, "mat-label"), ma(28, "Bot Overview"), Eo(), Ao(29, "textarea", 17, 18), Oo(31, "mat-hint", 19), ma(32), Eo(), So(33, rE, 2, 0, "mat-error", 14), Eo(), Oo(34, "mat-form-field", 12), Oo(35, "mat-label"), ma(36, "Command Prefix"), Eo(), Ao(37, "input", 20), Oo(38, "mat-hint"), ma(39, "Required"), Eo(), So(40, sE, 2, 0, "mat-error", 14), Eo(), Oo(41, "mat-form-field", 21), Oo(42, "mat-label"), ma(43, "Body"), Eo(), Ao(44, "textarea", 22, 23), Oo(46, "mat-hint", 19), ma(47), Eo(), So(48, oE, 4, 1, "mat-error", 14), Eo(), Ao(49, "hr"), Oo(50, "mat-form-field", 12), Oo(51, "mat-label"), ma(52, "Tags"), Eo(), Oo(53, "mat-select", 24), Oo(54, "input", 25), Ho("input", function(t) {
                   return e.filterTags(t.target.value)
-                }), Eo(), So(55, aE, 3, 4, "mat-option", 26), Eo(), Oo(56, "mat-hint"), ma(57, "Select up to 8 tags"), Eo(), So(58, lE, 2, 0, "mat-error", 14), Eo(), Oo(59, "mat-form-field", 12), Oo(60, "mat-label"), ma(61, "Support Server Invite"), Eo(), Oo(62, "span", 27), ma(63, "discord.gg/"), Eo(), Ao(64, "input", 28), So(65, cE, 2, 0, "mat-error", 14), Eo(), Oo(66, "mat-form-field", 12), Oo(67, "mat-label"), ma(68, "Github URL"), Eo(), Ao(69, "input", 29), So(70, uE, 2, 0, "mat-error", 14), Eo(), Oo(71, "mat-form-field", 12), Oo(72, "mat-label"), ma(73, "Website URL"), Eo(), Ao(74, "input", 30), So(75, dE, 2, 0, "mat-error", 14), Eo(), Oo(76, "div", 31), Ao(77, "mat-checkbox", 32, 33), Oo(79, "label", 34), ma(80, "I have read the "), Oo(81, "a", 35), ma(82, " bot guidelines"), Eo(), ma(83, ". "), Eo(), Eo(), So(84, hE, 3, 0, "div", 36), So(85, pE, 2, 1, "div", 37), Oo(86, "div", 38), So(87, fE, 2, 1, "rocket-button", 39), So(88, mE, 2, 1, "rocket-button", 40), Eo(), Eo(), Eo(), Oo(89, "div", 41), So(90, gE, 5, 1, "div", 42), Oo(91, "h3"), ma(92, "Bot Card"), Eo(), Oo(93, "p"), ma(94, "This is what your bot card will look like to new users."), Eo(), Oo(95, "div", 43), Ao(96, "bot-card", 44), Eo(), Eo(), Eo(), Eo(), Oo(97, "div", 45), Oo(98, "div", 38), Oo(99, "button", 46), Ho("click", function() {
+                }), Eo(), So(55, aE, 3, 4, "mat-option", 26), Eo(), Oo(56, "mat-hint"), ma(57, "Select up to 8 tags"), Eo(), So(58, lE, 2, 0, "mat-error", 14), Eo(), Oo(59, "mat-form-field", 12), Oo(60, "mat-label"), ma(61, "Support Server Invite"), Eo(), Oo(62, "span", 27), ma(63, "discord.gg/"), Eo(), Ao(64, "input", 28), So(65, cE, 2, 0, "mat-error", 14), Eo(), Oo(66, "mat-form-field", 12), Oo(67, "mat-label"), ma(68, "Github URL"), Eo(), Ao(69, "input", 29), So(70, uE, 2, 0, "mat-error", 14), Eo(), Oo(71, "mat-form-field", 12), Oo(72, "mat-label"), ma(73, "Website URL"), Eo(), Ao(74, "input", 30), So(75, dE, 2, 0, "mat-error", 14), Eo(), Oo(76, "div", 31), Ao(77, "mat-checkbox", 32, 33), Oo(79, "label", 34), ma(80, "Okudum "), Oo(81, "a", 35), ma(82, " Bot kuralları"), Eo(), ma(83, ". "), Eo(), Eo(), So(84, hE, 3, 0, "div", 36), So(85, pE, 2, 1, "div", 37), Oo(86, "div", 38), So(87, fE, 2, 1, "rocket-button", 39), So(88, mE, 2, 1, "rocket-button", 40), Eo(), Eo(), Eo(), Oo(89, "div", 41), So(90, gE, 5, 1, "div", 42), Oo(91, "h3"), ma(92, "Bot Kart"), Eo(), Oo(93, "p"), ma(94, "Bot kartınız yeni kullanıcılara böyle görünecek."), Eo(), Oo(95, "div", 43), Ao(96, "bot-card", 44), Eo(), Eo(), Eo(), Eo(), Oo(97, "div", 45), Oo(98, "div", 38), Oo(99, "button", 46), Ho("click", function() {
                   return e.preview = !1
                 }), Ao(100, "i", 47), Eo(), Eo(), So(101, _E, 1, 3, "bot-preview", 48), Eo(), Eo()), 2 & t) {
                 const t = Co(30),

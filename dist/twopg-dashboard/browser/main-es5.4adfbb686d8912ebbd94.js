@@ -58937,7 +58937,7 @@
             _(this, e), this.loaded = !0, this.user = {
               id: "",
               displayAvatarURL: "https://cdn.discordapp.com/embed/avatars/0.png",
-              username: "New Bot"
+              username: "Yeni Bot"
             }
           }).\u0275fac = function(e) {
             return new(e || RY)
@@ -59759,7 +59759,7 @@
               return e.analytics.botInvite({
                 botId: e.user.id
               })
-            }), $o(4, "i", 47), Es(5, " Add"), Go(), qo(6, "button", 48), $o(7, "i", 49), Es(8, " Oy Ver"), Go(), Go()
+            }), $o(4, "i", 47), Es(5, " Ekle"), Go(), qo(6, "button", 48), $o(7, "i", 49), Es(8, " Oy ver"), Go(), Go()
           }
           if (2 & e) {
             var i = os();
@@ -60090,7 +60090,7 @@
               return Jt(n), os().submit()
             })("animated", function() {
               return Jt(n), os().navigateToBotListing()
-            }), Es(1, "Add"), Go()
+            }), Es(1, "Ekle"), Go()
           }
           2 & e && Wo("precondition", os().canSubmit)
         }
@@ -60102,7 +60102,7 @@
               return Jt(n), os().update()
             })("animated", function() {
               return Jt(n), os().navigateToBotListing()
-            }), Es(1, "Update"), Go()
+            }), Es(1, "Güncelle"), Go()
           }
           2 & e && Wo("precondition", os().canSubmit)
         }
@@ -60142,8 +60142,8 @@
                 presence: {
                   status: "ONLINE"
                 },
-                tag: "New Bot#0001",
-                username: "New Bot"
+                tag: "Yeni Bot#0001",
+                username: "Yeni Bot"
               }, this.bot = {
                 listing: this.form.value,
                 guildCount: 100,
@@ -60399,7 +60399,7 @@
                   return t.preview = !0
                 }), $o(8, "i", 6), Es(9, " Preview "), Go(), Go(), Go(), qo(10, "div", 7), qo(11, "div", 8), qo(12, "form", 9, 10), Bo(14, jP, 7, 1, "mat-form-field", 11), qo(15, "mat-form-field", 12), qo(16, "mat-label"), Es(17, "Bot Invite URL"), Go(), $o(18, "input", 13), qo(19, "mat-hint"), Es(20, "Required"), Go(), Bo(21, FP, 2, 0, "mat-error", 14), Go(), qo(22, "p", 15), qo(23, "a", 16), Es(24, "Bot Invite Generator"), Go(), Go(), $o(25, "hr"), qo(26, "mat-form-field", 12), qo(27, "mat-label"), Es(28, "Bot Overview"), Go(), $o(29, "textarea", 17, 18), qo(31, "mat-hint", 19), Es(32), Go(), Bo(33, HP, 2, 0, "mat-error", 14), Go(), qo(34, "mat-form-field", 12), qo(35, "mat-label"), Es(36, "Command Prefix"), Go(), $o(37, "input", 20), qo(38, "mat-hint"), Es(39, "Required"), Go(), Bo(40, NP, 2, 0, "mat-error", 14), Go(), qo(41, "mat-form-field", 21), qo(42, "mat-label"), Es(43, "Body"), Go(), $o(44, "textarea", 22, 23), qo(46, "mat-hint", 19), Es(47), Go(), Bo(48, BP, 4, 1, "mat-error", 14), Go(), $o(49, "hr"), qo(50, "mat-form-field", 12), qo(51, "mat-label"), Es(52, "Tags"), Go(), qo(53, "mat-select", 24), qo(54, "input", 25), ts("input", function(e) {
                   return t.filterTags(e.target.value)
-                }), Go(), Bo(55, zP, 3, 4, "mat-option", 26), Go(), qo(56, "mat-hint"), Es(57, "Select up to 8 tags"), Go(), Bo(58, VP, 2, 0, "mat-error", 14), Go(), qo(59, "mat-form-field", 12), qo(60, "mat-label"), Es(61, "Support Server Invite"), Go(), qo(62, "span", 27), Es(63, "discord.gg/"), Go(), $o(64, "input", 28), Bo(65, WP, 2, 0, "mat-error", 14), Go(), qo(66, "mat-form-field", 12), qo(67, "mat-label"), Es(68, "Github URL"), Go(), $o(69, "input", 29), Bo(70, UP, 2, 0, "mat-error", 14), Go(), qo(71, "mat-form-field", 12), qo(72, "mat-label"), Es(73, "Website URL"), Go(), $o(74, "input", 30), Bo(75, qP, 2, 0, "mat-error", 14), Go(), qo(76, "div", 31), $o(77, "mat-checkbox", 32, 33), qo(79, "label", 34), Es(80, "I have read the "), qo(81, "a", 35), Es(82, " bot guidelines"), Go(), Es(83, ". "), Go(), Go(), Bo(84, GP, 3, 0, "div", 36), Bo(85, $P, 2, 1, "div", 37), qo(86, "div", 38), Bo(87, JP, 2, 1, "rocket-button", 39), Bo(88, KP, 2, 1, "rocket-button", 40), Go(), Go(), Go(), qo(89, "div", 41), Bo(90, ZP, 5, 1, "div", 42), qo(91, "h3"), Es(92, "Bot Card"), Go(), qo(93, "p"), Es(94, "This is what your bot card will look like to new users."), Go(), qo(95, "div", 43), $o(96, "bot-card", 44), Go(), Go(), Go(), Go(), qo(97, "div", 45), qo(98, "div", 38), qo(99, "button", 46), ts("click", function() {
+                }), Go(), Bo(55, zP, 3, 4, "mat-option", 26), Go(), qo(56, "mat-hint"), Es(57, "Select up to 8 tags"), Go(), Bo(58, VP, 2, 0, "mat-error", 14), Go(), qo(59, "mat-form-field", 12), qo(60, "mat-label"), Es(61, "Support Server Invite"), Go(), qo(62, "span", 27), Es(63, "discord.gg/"), Go(), $o(64, "input", 28), Bo(65, WP, 2, 0, "mat-error", 14), Go(), qo(66, "mat-form-field", 12), qo(67, "mat-label"), Es(68, "Github URL"), Go(), $o(69, "input", 29), Bo(70, UP, 2, 0, "mat-error", 14), Go(), qo(71, "mat-form-field", 12), qo(72, "mat-label"), Es(73, "Website URL"), Go(), $o(74, "input", 30), Bo(75, qP, 2, 0, "mat-error", 14), Go(), qo(76, "div", 31), $o(77, "mat-checkbox", 32, 33), qo(79, "label", 34), Es(80, "I have read the "), qo(81, "a", 35), Es(82, " bot guidelines"), Go(), Es(83, ". "), Go(), Go(), Bo(84, GP, 3, 0, "div", 36), Bo(85, $P, 2, 1, "div", 37), qo(86, "div", 38), Bo(87, JP, 2, 1, "rocket-button", 39), Bo(88, KP, 2, 1, "rocket-button", 40), Go(), Go(), Go(), qo(89, "div", 41), Bo(90, ZP, 5, 1, "div", 42), qo(91, "h3"), Es(92, "Bot Kart"), Go(), qo(93, "p"), Es(94, "Bot kartınız yeni kullanıcılara böyle görünecek."), Go(), qo(95, "div", 43), $o(96, "bot-card", 44), Go(), Go(), Go(), Go(), qo(97, "div", 45), qo(98, "div", 38), qo(99, "button", 46), ts("click", function() {
                   return t.preview = !1
                 }), $o(100, "i", 47), Go(), Go(), Bo(101, XP, 1, 3, "bot-preview", 48), Go(), Go()), 2 & e) {
                 var n = zo(30),
