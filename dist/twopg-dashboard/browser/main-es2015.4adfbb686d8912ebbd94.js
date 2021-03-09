@@ -50797,7 +50797,7 @@
             [3, "src", "alt"],
             [1, "guild-seperator"],
             ["class", "guild-icon", 3, "routerLink", 4, "ngFor", "ngForOf"],
-            ["routerLink", "/dashboard/bots/new", "matTooltip", "Add a Bot", 1, "guild-icon", "invite", "bg-transparent"],
+            ["routerLink", "/dashboard/bots/yeni", "matTooltip", "Bir bot ekle", 1, "guild-icon", "invite", "bg-transparent"],
             [1, "add-guild", "pt-1", "d-flex", "justify-content-center", "flex-column"],
             [1, "options"],
             [1, "float-right", "d-sm-none", "d-block", "close", 3, "click"],
