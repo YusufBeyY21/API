@@ -52703,10 +52703,10 @@
                 guildCount: 100,
                 votes: CS(100)
               }, i.setTags({
-                description: "Add a bot to the bot list with this form.",
-                titlePrefix: "Add Bot",
+                description: "Bu formla bot liste bir bot ekleyin.",
+                titlePrefix: "Bot Ekle",
                 titleSuffix: "Dashboard",
-                url: "dashboard/bots/new"
+                url: "dashboard/bots/yeni"
               })
             }
             get canSubmit() {
@@ -52869,7 +52869,7 @@
               [3, "bot", "preview", "ownerUser"]
             ],
             template: function(t, e) {
-              if (1 & t && (Oo(0, "bot-sidebar", 0), Oo(1, "div", 1), Oo(2, "div", 2), Oo(3, "div", 3), Ao(4, "span"), Oo(5, "h1", 4), ma(6, "Add Bot"), Eo(), Oo(7, "button", 5), Ho("click", function() {
+              if (1 & t && (Oo(0, "bot-sidebar", 0), Oo(1, "div", 1), Oo(2, "div", 2), Oo(3, "div", 3), Ao(4, "span"), Oo(5, "h1", 4), ma(6, "Bot Ekle"), Eo(), Oo(7, "button", 5), Ho("click", function() {
                   return e.preview = !0
                 }), Ao(8, "i", 6), ma(9, " Preview "), Eo(), Eo(), Eo(), Oo(10, "div", 7), Oo(11, "div", 8), Oo(12, "form", 9, 10), So(14, nE, 7, 1, "mat-form-field", 11), Oo(15, "mat-form-field", 12), Oo(16, "mat-label"), ma(17, "Bot Invite URL"), Eo(), Ao(18, "input", 13), Oo(19, "mat-hint"), ma(20, "Required"), Eo(), So(21, iE, 2, 0, "mat-error", 14), Eo(), Oo(22, "p", 15), Oo(23, "a", 16), ma(24, "Bot Invite Generator"), Eo(), Eo(), Ao(25, "hr"), Oo(26, "mat-form-field", 12), Oo(27, "mat-label"), ma(28, "Bot Overview"), Eo(), Ao(29, "textarea", 17, 18), Oo(31, "mat-hint", 19), ma(32), Eo(), So(33, rE, 2, 0, "mat-error", 14), Eo(), Oo(34, "mat-form-field", 12), Oo(35, "mat-label"), ma(36, "Command Prefix"), Eo(), Ao(37, "input", 20), Oo(38, "mat-hint"), ma(39, "Required"), Eo(), So(40, sE, 2, 0, "mat-error", 14), Eo(), Oo(41, "mat-form-field", 21), Oo(42, "mat-label"), ma(43, "Body"), Eo(), Ao(44, "textarea", 22, 23), Oo(46, "mat-hint", 19), ma(47), Eo(), So(48, oE, 4, 1, "mat-error", 14), Eo(), Ao(49, "hr"), Oo(50, "mat-form-field", 12), Oo(51, "mat-label"), ma(52, "Tags"), Eo(), Oo(53, "mat-select", 24), Oo(54, "input", 25), Ho("input", function(t) {
                   return e.filterTags(t.target.value)
@@ -52878,7 +52878,7 @@
                 }), Ao(100, "i", 47), Eo(), Eo(), So(101, _E, 1, 3, "bot-preview", 48), Eo(), Eo()), 2 & t) {
                 const t = Co(30),
                   n = Co(45);
-                Do("bot", e.bot)("loaded", e.bot && e.user)("user", e.user), Gr(1), Do("hidden", e.preview), Gr(4), Do("textContent", e.editing ? "Edit " + (null == e.user ? null : e.user.username) : "Add Bot"), Gr(7), Do("formGroup", e.form), Gr(2), Do("ngIf", !e.editing), Gr(7), Do("ngIf", e.form.get("invite").invalid), Gr(11), _a("", t.value.length, "/128"), Gr(1), Do("ngIf", e.form.get("overview").invalid), Gr(7), Do("ngIf", e.form.get("prefix").invalid), Gr(7), ga(n.value.length), Gr(1), Do("ngIf", e.form.get("body").invalid), Gr(7), Do("ngForOf", e.filteredTags), Gr(3), Do("ngIf", e.form.get("tags").invalid), Gr(7), Do("ngIf", e.form.get("supportInvite").invalid), Gr(5), Do("ngIf", e.form.get("githubURL").invalid), Gr(5), Do("ngIf", e.form.get("websiteURL").invalid), Gr(6), Do("routerLink", Nl(28, yE)), Gr(3), Do("ngIf", e.form.hasError("invalid")), Gr(1), Do("ngIf", e.apiError), Gr(2), Do("ngIf", !e.editing), Gr(1), Do("ngIf", e.editing), Gr(2), Do("ngIf", !e.editing), Gr(6), Do("user", e.user)("bot", e.bot), Gr(1), Do("hidden", !e.preview), Gr(4), Do("ngIf", e.bot)
+                Do("bot", e.bot)("loaded", e.bot && e.user)("user", e.user), Gr(1), Do("hidden", e.preview), Gr(4), Do("textContent", e.editing ? "Edit " + (null == e.user ? null : e.user.username) : "Bot Ekle"), Gr(7), Do("formGroup", e.form), Gr(2), Do("ngIf", !e.editing), Gr(7), Do("ngIf", e.form.get("invite").invalid), Gr(11), _a("", t.value.length, "/128"), Gr(1), Do("ngIf", e.form.get("overview").invalid), Gr(7), Do("ngIf", e.form.get("prefix").invalid), Gr(7), ga(n.value.length), Gr(1), Do("ngIf", e.form.get("body").invalid), Gr(7), Do("ngForOf", e.filteredTags), Gr(3), Do("ngIf", e.form.get("tags").invalid), Gr(7), Do("ngIf", e.form.get("supportInvite").invalid), Gr(5), Do("ngIf", e.form.get("githubURL").invalid), Gr(5), Do("ngIf", e.form.get("websiteURL").invalid), Gr(6), Do("routerLink", Nl(28, yE)), Gr(3), Do("ngIf", e.form.hasError("invalid")), Gr(1), Do("ngIf", e.apiError), Gr(2), Do("ngIf", !e.editing), Gr(1), Do("ngIf", e.editing), Gr(2), Do("ngIf", !e.editing), Gr(6), Do("user", e.user)("bot", e.bot), Gr(1), Do("hidden", !e.preview), Gr(4), Do("ngIf", e.bot)
               }
             },
             directives: [cO, bS, Lv, Gb, Ov, Zu, SC, mC, Sb, yO, $b, Av, Pv, fC, jT, Ju, yC, EO, UM, $M, hD, cC, l_, IO, QO],

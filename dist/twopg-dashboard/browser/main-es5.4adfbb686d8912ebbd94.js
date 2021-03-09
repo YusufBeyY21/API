@@ -60149,10 +60149,10 @@
                 guildCount: 100,
                 votes: UL(100)
               }, r.setTags({
-                description: "Add a bot to the bot list with this form.",
-                titlePrefix: "Add Bot",
+                description: "Bu formla bot liste bir bot ekleyin.",
+                titlePrefix: "Bot Ekle",
                 titleSuffix: "Dashboard",
-                url: "dashboard/bots/new"
+                url: "dashboard/bots/yeni"
               })
             }
             return b(e, [{
@@ -60395,7 +60395,7 @@
               [3, "bot", "preview", "ownerUser"]
             ],
             template: function(e, t) {
-              if (1 & e && (qo(0, "bot-sidebar", 0), qo(1, "div", 1), qo(2, "div", 2), qo(3, "div", 3), $o(4, "span"), qo(5, "h1", 4), Es(6, "Add Bot"), Go(), qo(7, "button", 5), ts("click", function() {
+              if (1 & e && (qo(0, "bot-sidebar", 0), qo(1, "div", 1), qo(2, "div", 2), qo(3, "div", 3), $o(4, "span"), qo(5, "h1", 4), Es(6, "Bot Ekle"), Go(), qo(7, "button", 5), ts("click", function() {
                   return t.preview = !0
                 }), $o(8, "i", 6), Es(9, " Preview "), Go(), Go(), Go(), qo(10, "div", 7), qo(11, "div", 8), qo(12, "form", 9, 10), Bo(14, jP, 7, 1, "mat-form-field", 11), qo(15, "mat-form-field", 12), qo(16, "mat-label"), Es(17, "Bot Invite URL"), Go(), $o(18, "input", 13), qo(19, "mat-hint"), Es(20, "Required"), Go(), Bo(21, FP, 2, 0, "mat-error", 14), Go(), qo(22, "p", 15), qo(23, "a", 16), Es(24, "Bot Invite Generator"), Go(), Go(), $o(25, "hr"), qo(26, "mat-form-field", 12), qo(27, "mat-label"), Es(28, "Bot Overview"), Go(), $o(29, "textarea", 17, 18), qo(31, "mat-hint", 19), Es(32), Go(), Bo(33, HP, 2, 0, "mat-error", 14), Go(), qo(34, "mat-form-field", 12), qo(35, "mat-label"), Es(36, "Command Prefix"), Go(), $o(37, "input", 20), qo(38, "mat-hint"), Es(39, "Required"), Go(), Bo(40, NP, 2, 0, "mat-error", 14), Go(), qo(41, "mat-form-field", 21), qo(42, "mat-label"), Es(43, "Body"), Go(), $o(44, "textarea", 22, 23), qo(46, "mat-hint", 19), Es(47), Go(), Bo(48, BP, 4, 1, "mat-error", 14), Go(), $o(49, "hr"), qo(50, "mat-form-field", 12), qo(51, "mat-label"), Es(52, "Tags"), Go(), qo(53, "mat-select", 24), qo(54, "input", 25), ts("input", function(e) {
                   return t.filterTags(e.target.value)
@@ -60404,7 +60404,7 @@
                 }), $o(100, "i", 47), Go(), Go(), Bo(101, XP, 1, 3, "bot-preview", 48), Go(), Go()), 2 & e) {
                 var n = zo(30),
                   i = zo(45);
-                Wo("bot", t.bot)("loaded", t.bot && t.user)("user", t.user), ca(1), Wo("hidden", t.preview), ca(4), Wo("textContent", t.editing ? "Edit " + (null == t.user ? null : t.user.username) : "Add Bot"), ca(7), Wo("formGroup", t.form), ca(2), Wo("ngIf", !t.editing), ca(7), Wo("ngIf", t.form.get("invite").invalid), ca(11), Ys("", n.value.length, "/128"), ca(1), Wo("ngIf", t.form.get("overview").invalid), ca(7), Wo("ngIf", t.form.get("prefix").invalid), ca(7), As(i.value.length), ca(1), Wo("ngIf", t.form.get("body").invalid), ca(7), Wo("ngForOf", t.filteredTags), ca(3), Wo("ngIf", t.form.get("tags").invalid), ca(7), Wo("ngIf", t.form.get("supportInvite").invalid), ca(5), Wo("ngIf", t.form.get("githubURL").invalid), ca(5), Wo("ngIf", t.form.get("websiteURL").invalid), ca(6), Wo("routerLink", Qu(28, tR)), ca(3), Wo("ngIf", t.form.hasError("invalid")), ca(1), Wo("ngIf", t.apiError), ca(2), Wo("ngIf", !t.editing), ca(1), Wo("ngIf", t.editing), ca(2), Wo("ngIf", !t.editing), ca(6), Wo("user", t.user)("bot", t.bot), ca(1), Wo("hidden", !t.preview), ca(4), Wo("ngIf", t.bot)
+                Wo("bot", t.bot)("loaded", t.bot && t.user)("user", t.user), ca(1), Wo("hidden", t.preview), ca(4), Wo("textContent", t.editing ? "Edit " + (null == t.user ? null : t.user.username) : "Bot Ekle"), ca(7), Wo("formGroup", t.form), ca(2), Wo("ngIf", !t.editing), ca(7), Wo("ngIf", t.form.get("invite").invalid), ca(11), Ys("", n.value.length, "/128"), ca(1), Wo("ngIf", t.form.get("overview").invalid), ca(7), Wo("ngIf", t.form.get("prefix").invalid), ca(7), As(i.value.length), ca(1), Wo("ngIf", t.form.get("body").invalid), ca(7), Wo("ngForOf", t.filteredTags), ca(3), Wo("ngIf", t.form.get("tags").invalid), ca(7), Wo("ngIf", t.form.get("supportInvite").invalid), ca(5), Wo("ngIf", t.form.get("githubURL").invalid), ca(5), Wo("ngIf", t.form.get("websiteURL").invalid), ca(6), Wo("routerLink", Qu(28, tR)), ca(3), Wo("ngIf", t.form.hasError("invalid")), ca(1), Wo("ngIf", t.apiError), ca(2), Wo("ngIf", !t.editing), ca(1), Wo("ngIf", t.editing), ca(2), Wo("ngIf", !t.editing), ca(6), Wo("user", t.user)("bot", t.bot), ca(1), Wo("hidden", !t.preview), ca(4), Wo("ngIf", t.bot)
               }
             },
             directives: [BY, RL, ww, Pk, Sw, bd, oT, ZD, tk, JY, Yk, Lw, Tw, KD, sY, _d, eT, dP, QC, aL, mE, UD, A_, vP, PP],
