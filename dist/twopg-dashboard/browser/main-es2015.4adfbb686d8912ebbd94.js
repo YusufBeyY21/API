@@ -49921,7 +49921,7 @@
         };
 
       function PD(t, e) {
-        if (1 & t && (Oo(0, "div"), Ao(1, "packs", 20), Ao(2, "bots", 21), Ao(3, "bots", 22), Oo(4, "h2", 23), Ao(5, "i", 24), ma(6, " Tags"), Eo(), Oo(7, "mat-chip-list"), So(8, ED, 4, 8, "mat-chip", 25), Eo(), Oo(9, "div", 26), Oo(10, "div", 27), Oo(11, "button", 28), ma(12, "View More"), Eo(), Eo(), Eo(), Eo()), 2 & t) {
+        if (1 & t && (Oo(0, "div"), Ao(1, "packs", 20), Ao(2, "bots", 21), Ao(3, "bots", 22), Oo(4, "h2", 23), Ao(5, "i", 24), ma(6, " Taglar"), Eo(), Oo(7, "mat-chip-list"), So(8, ED, 4, 8, "mat-chip", 25), Eo(), Oo(9, "div", 26), Oo(10, "div", 27), Oo(11, "button", 28), ma(12, "View More"), Eo(), Eo(), Eo(), Eo()), 2 & t) {
           const t = Wo();
           Gr(2), Do("tag", Nl(3, AD)), Gr(1), Do("tag", Nl(4, YD)), Gr(5), Do("ngForOf", t.tagService.tags)
         }
@@ -52576,7 +52576,7 @@
       }
 
       function nE(t, e) {
-        if (1 & t && (Oo(0, "mat-form-field", 12), Oo(1, "mat-label"), ma(2, "Bot ID"), Eo(), Ao(3, "input", 49), Oo(4, "mat-hint"), ma(5, "Required"), Eo(), So(6, eE, 5, 0, "mat-error", 14), Eo()), 2 & t) {
+        if (1 & t && (Oo(0, "mat-form-field", 12), Oo(1, "mat-label"), ma(2, "Bot ID"), Eo(), Ao(3, "input", 49), Oo(4, "mat-hint"), ma(5, "Önemli"), Eo(), So(6, eE, 5, 0, "mat-error", 14), Eo()), 2 & t) {
           const t = Wo();
           Gr(6), Do("ngIf", t.form.get("botId").invalid)
         }
@@ -52694,7 +52694,7 @@
                 id: "",
                 displayAvatarURL: "https://cdn.discordapp.com/embed/avatars/0.png",
                 presence: {
-                  status: "ONLINE"
+                  status: "online"
                 },
                 tag: "Yeni Bot#0001",
                 username: "Yeni Bot"
@@ -52871,9 +52871,9 @@
             template: function(t, e) {
               if (1 & t && (Oo(0, "bot-sidebar", 0), Oo(1, "div", 1), Oo(2, "div", 2), Oo(3, "div", 3), Ao(4, "span"), Oo(5, "h1", 4), ma(6, "Bot Ekle"), Eo(), Oo(7, "button", 5), Ho("click", function() {
                   return e.preview = !0
-                }), Ao(8, "i", 6), ma(9, " Preview "), Eo(), Eo(), Eo(), Oo(10, "div", 7), Oo(11, "div", 8), Oo(12, "form", 9, 10), So(14, nE, 7, 1, "mat-form-field", 11), Oo(15, "mat-form-field", 12), Oo(16, "mat-label"), ma(17, "Bot Invite URL"), Eo(), Ao(18, "input", 13), Oo(19, "mat-hint"), ma(20, "Required"), Eo(), So(21, iE, 2, 0, "mat-error", 14), Eo(), Oo(22, "p", 15), Oo(23, "a", 16), ma(24, "Bot Invite Generator"), Eo(), Eo(), Ao(25, "hr"), Oo(26, "mat-form-field", 12), Oo(27, "mat-label"), ma(28, "Bot Overview"), Eo(), Ao(29, "textarea", 17, 18), Oo(31, "mat-hint", 19), ma(32), Eo(), So(33, rE, 2, 0, "mat-error", 14), Eo(), Oo(34, "mat-form-field", 12), Oo(35, "mat-label"), ma(36, "Command Prefix"), Eo(), Ao(37, "input", 20), Oo(38, "mat-hint"), ma(39, "Required"), Eo(), So(40, sE, 2, 0, "mat-error", 14), Eo(), Oo(41, "mat-form-field", 21), Oo(42, "mat-label"), ma(43, "Body"), Eo(), Ao(44, "textarea", 22, 23), Oo(46, "mat-hint", 19), ma(47), Eo(), So(48, oE, 4, 1, "mat-error", 14), Eo(), Ao(49, "hr"), Oo(50, "mat-form-field", 12), Oo(51, "mat-label"), ma(52, "Tags"), Eo(), Oo(53, "mat-select", 24), Oo(54, "input", 25), Ho("input", function(t) {
+                }), Ao(8, "i", 6), ma(9, " Ön izleme "), Eo(), Eo(), Eo(), Oo(10, "div", 7), Oo(11, "div", 8), Oo(12, "form", 9, 10), So(14, nE, 7, 1, "mat-form-field", 11), Oo(15, "mat-form-field", 12), Oo(16, "mat-label"), ma(17, "Bot Davet URL'si"), Eo(), Ao(18, "input", 13), Oo(19, "mat-hint"), ma(20, "Required"), Eo(), So(21, iE, 2, 0, "mat-error", 14), Eo(), Oo(22, "p", 15), Oo(23, "a", 16), ma(24, "Bot davet linki generatörü"), Eo(), Eo(), Ao(25, "hr"), Oo(26, "mat-form-field", 12), Oo(27, "mat-label"), ma(28, "Botun kısa açıklaması"), Eo(), Ao(29, "textarea", 17, 18), Oo(31, "mat-hint", 19), ma(32), Eo(), So(33, rE, 2, 0, "mat-error", 14), Eo(), Oo(34, "mat-form-field", 12), Oo(35, "mat-label"), ma(36, "Bot Prefixi"), Eo(), Ao(37, "input", 20), Oo(38, "mat-hint"), ma(39, "Required"), Eo(), So(40, sE, 2, 0, "mat-error", 14), Eo(), Oo(41, "mat-form-field", 21), Oo(42, "mat-label"), ma(43, "Botun uzun açıklaması"), Eo(), Ao(44, "textarea", 22, 23), Oo(46, "mat-hint", 19), ma(47), Eo(), So(48, oE, 4, 1, "mat-error", 14), Eo(), Ao(49, "hr"), Oo(50, "mat-form-field", 12), Oo(51, "mat-label"), ma(52, "Tags"), Eo(), Oo(53, "mat-select", 24), Oo(54, "input", 25), Ho("input", function(t) {
                   return e.filterTags(t.target.value)
-                }), Eo(), So(55, aE, 3, 4, "mat-option", 26), Eo(), Oo(56, "mat-hint"), ma(57, "Select up to 8 tags"), Eo(), So(58, lE, 2, 0, "mat-error", 14), Eo(), Oo(59, "mat-form-field", 12), Oo(60, "mat-label"), ma(61, "Support Server Invite"), Eo(), Oo(62, "span", 27), ma(63, "discord.gg/"), Eo(), Ao(64, "input", 28), So(65, cE, 2, 0, "mat-error", 14), Eo(), Oo(66, "mat-form-field", 12), Oo(67, "mat-label"), ma(68, "Github URL"), Eo(), Ao(69, "input", 29), So(70, uE, 2, 0, "mat-error", 14), Eo(), Oo(71, "mat-form-field", 12), Oo(72, "mat-label"), ma(73, "Website URL"), Eo(), Ao(74, "input", 30), So(75, dE, 2, 0, "mat-error", 14), Eo(), Oo(76, "div", 31), Ao(77, "mat-checkbox", 32, 33), Oo(79, "label", 34), ma(80, "Okudum "), Oo(81, "a", 35), ma(82, " Bot kuralları"), Eo(), ma(83, ". "), Eo(), Eo(), So(84, hE, 3, 0, "div", 36), So(85, pE, 2, 1, "div", 37), Oo(86, "div", 38), So(87, fE, 2, 1, "rocket-button", 39), So(88, mE, 2, 1, "rocket-button", 40), Eo(), Eo(), Eo(), Oo(89, "div", 41), So(90, gE, 5, 1, "div", 42), Oo(91, "h3"), ma(92, "Bot Kart"), Eo(), Oo(93, "p"), ma(94, "Bot kartınız yeni kullanıcılara böyle görünecek."), Eo(), Oo(95, "div", 43), Ao(96, "bot-card", 44), Eo(), Eo(), Eo(), Eo(), Oo(97, "div", 45), Oo(98, "div", 38), Oo(99, "button", 46), Ho("click", function() {
+                }), Eo(), So(55, aE, 3, 4, "mat-option", 26), Eo(), Oo(56, "mat-hint"), ma(57, "En fazla 8 etiket seçin"), Eo(), So(58, lE, 2, 0, "mat-error", 14), Eo(), Oo(59, "mat-form-field", 12), Oo(60, "mat-label"), ma(61, "Destek Sunucusu Daveti"), Eo(), Oo(62, "span", 27), ma(63, "discord.gg/"), Eo(), Ao(64, "input", 28), So(65, cE, 2, 0, "mat-error", 14), Eo(), Oo(66, "mat-form-field", 12), Oo(67, "mat-label"), ma(68, "Github URL"), Eo(), Ao(69, "input", 29), So(70, uE, 2, 0, "mat-error", 14), Eo(), Oo(71, "mat-form-field", 12), Oo(72, "mat-label"), ma(73, "Website URL"), Eo(), Ao(74, "input", 30), So(75, dE, 2, 0, "mat-error", 14), Eo(), Oo(76, "div", 31), Ao(77, "mat-checkbox", 32, 33), Oo(79, "label", 34), ma(80, "Okudum "), Oo(81, "a", 35), ma(82, " Bot kuralları"), Eo(), ma(83, ". "), Eo(), Eo(), So(84, hE, 3, 0, "div", 36), So(85, pE, 2, 1, "div", 37), Oo(86, "div", 38), So(87, fE, 2, 1, "rocket-button", 39), So(88, mE, 2, 1, "rocket-button", 40), Eo(), Eo(), Eo(), Oo(89, "div", 41), So(90, gE, 5, 1, "div", 42), Oo(91, "h3"), ma(92, "Bot Kart"), Eo(), Oo(93, "p"), ma(94, "Bot kartınız yeni kullanıcılara böyle görünecek."), Eo(), Oo(95, "div", 43), Ao(96, "bot-card", 44), Eo(), Eo(), Eo(), Eo(), Oo(97, "div", 45), Oo(98, "div", 38), Oo(99, "button", 46), Ho("click", function() {
                   return e.preview = !1
                 }), Ao(100, "i", 47), Eo(), Eo(), So(101, _E, 1, 3, "bot-preview", 48), Eo(), Eo()), 2 & t) {
                 const t = Co(30),
