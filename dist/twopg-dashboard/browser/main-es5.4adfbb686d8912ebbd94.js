@@ -60152,7 +60152,7 @@
                 description: "Bu formla bot liste bir bot ekleyin.",
                 titlePrefix: "Bot Ekle",
                 titleSuffix: "Dashboard",
-                url: "dashboard/bots/yeni"
+                url: "dashboard/bots/new"
               })
             }
             return b(e, [{
