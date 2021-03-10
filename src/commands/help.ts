@@ -12,7 +12,7 @@ export default class HelpCommand implements Command {
             '🅰 `zero delete <bot> <reason>` -> delete a bot from the list\n' +
             '🔨 `zero decline <bot> <reason>` -> decline bot user with reason\n' +
             '🔨 `zero help` -> show this\n' +
-            '✅ `zero ping` -> `dbots ping` -> pong!\n' +
+            '✅ `zero ping` -> pong!\n' +
             '🔨 `zero q` -> show approval queue');
     }
 }
